@@ -69,24 +69,6 @@ Speech Emotion Recognition, abbreviated as SER, is the act of attempting to reco
 
 #### [Welcome to AI-Interview Discussions !](https://github.com/aryasoni98/AI-Interview/discussions)
 
-
-## ❤️ Project Admin
-
-
-<table>
-	<tr>
-		<td align="center">
-			<a href="https://github.com/aryasoni98">
-				<img src="./images/aryasoni.jpg" width="100px" alt="" />
-				<br /> <sub><b>Arya Soni</b></sub>
-			</a>
-			<br /> <a href="https://github.com/aryasoni98">
-		👑 Admin
-	    </a>
-		</td>
-	</tr>
-</table>
-
 ## Contributors ✨
 
 <table>
