@@ -1,0 +1,24 @@
+updateDocsComment: >
+  Thanks for opening this pull request! The maintainers of this repository would appreciate it if you would update some of our documentation based on your changes.
+requestInfoReplyComment: >
+  We would appreciate it if you could provide us with more info about this issue/pr!
+requestInfoLabelToAdd: request-more-info
+
+newPRWelcomeComment: >
+  Thank you for your pull request !
+  We will soon be getting back to you. Your patience will be greatly appreciated!
+firstPRMergeComment: >
+  Yaay, congratulations on getting your pull request merged! 🥳 🎉
+  Thanks for the contribution!
+  PS Don't hesitate to look at other issues and create more pull requests!
+
+newIssueWelcomeComment: >
+  Thanks for opening a new issue to this repo! Don't forget to go through our Code of Conduct and Contributing Guidelines, and wait until you get assigned by one of our maintainers to work on the issue!
+
+# *OPTIONAL* default titles to check against for lack of descriptiveness
+# MUST BE ALL LOWERCASE
+requestInfoDefaultTitles:
+  - update readme.md
+  - updates
+  - minor fixes
+  - bug fixes
