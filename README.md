@@ -2,11 +2,11 @@
 
 <img src="./images/AI.gif" >
 
-![Issues](https://img.shields.io/github/issues/CodeTrophs/AI-Interview-Test)
-![Pull Requests](https://img.shields.io/github/issues-pr/akshitagupta15june/Face-X)
-![Forks](https://img.shields.io/github/forks/CodeTrophs/AI-Interview-Test)
-![Stars](https://img.shields.io/github/stars/CodeTrophs/AI-Interview-Test)
-![License](https://img.shields.io/github/license/CodeTrophs/AI-Interview-Test)
+![Issues](https://img.shields.io/github/issues/aryasoni98/AI-Interview)
+![Pull Requests](https://img.shields.io/github/issues-pr/aryasoni98/AI-Interview)
+![Forks](https://img.shields.io/github/forks/aryasoni98/AI-Interview)
+![Stars](https://img.shields.io/github/stars/aryasoni98/AI-Interview)
+![License](https://img.shields.io/github/license/aryasoni98/AI-Interview)
 
 # AI Interview Preparation
 
@@ -22,8 +22,6 @@ Selection in big companies requires an aspirant to be proficient in coding as we
 ##### Use a deep learning model to predict facial expressions from a videostream.
 
 </div>
-
-### Kaggle : [Dataset](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)
 
 ### Requirements
 
@@ -62,15 +60,12 @@ Speech Emotion Recognition, abbreviated as SER, is the act of attempting to reco
 - -- Surrey Audio-Visual Expressed Emotion (Savee)
 - -- Toronto emotional speech set (Tess)
 
-#### Dataset : [Download](https://drive.google.com/drive/folders/1d_Yz9D0A5HXKrTr3N2nrpO8jP85iFxcb?usp=sharing)
-#### Model : [Download](https://drive.google.com/drive/folders/1oyEA82s3H22pO1FBjaSmnjg_KESpb4cK?usp=sharing)
-
 ## How to Contribute to AI Interview Preparation?
 
-- Take a look at the Existing [Issues](https://github.com/CodeTrophs/AI-Interview-Test/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/aryasoni98/AI-Interview/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you.
 - Fork the repository
-- Have a look at [Contibuting Guidelines](https://github.com/CodeTrophs/AI-Interview-Test/blob/main/CONTRIBUTING.md)
+- Have a look at [Contibuting Guidelines](https://github.com/aryasoni98/AI-Interview/blob/main/CONTRIBUTING.md)
 
 
 ## ❤️ Project Admin
@@ -88,4 +83,16 @@ Speech Emotion Recognition, abbreviated as SER, is the act of attempting to reco
 	    </a>
 		</td>
 	</tr>
+</table>
+
+## Contributors ✨
+
+<table>
+	 <tr>
+		 <td>
+        <a href="https://github.com/aryasoni98/AI-Interview/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=aryasoni98/AI-Interview" />
+      </a>
+		</td>
+  </tr>
 </table>
