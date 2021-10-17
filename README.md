@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/AI.gif" >
+![AI-Interview](https://socialify.git.ci/aryasoni98/AI-Interview/image?description=1&font=Source%20Code%20Pro&language=1&owner=1&pattern=Circuit%20Board&theme=Dark)
 
 ![Issues](https://img.shields.io/github/issues/aryasoni98/AI-Interview)
 ![Pull Requests](https://img.shields.io/github/issues-pr/aryasoni98/AI-Interview)
@@ -17,6 +17,7 @@ Selection in big companies requires an aspirant to be proficient in coding as we
 ### Stage 1 : Video Facial Expression Detection with Fast.ai and OpenCV
 
 <div align="center">
+
 <img src="./images/facial_movements.jpg" >
 
 ##### Use a deep learning model to predict facial expressions from a videostream.
@@ -79,7 +80,7 @@ Speech Emotion Recognition, abbreviated as SER, is the act of attempting to reco
  	<tr>
  		<td align="center">
  			<a href="https://github.com/aryasoni98">
- 				<img src="./images/aryasoni.JPG" width="100px" alt="" />
+ 				<img src="./images/aryasoni.jpg" width="100px" alt="" />
  				<br /> <sub><b>Arya Soni</b></sub>
  			</a>
  			<br /> <a href="https://github.com/aryasoni98">
