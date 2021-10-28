@@ -176,8 +176,6 @@ To use the web app :
 
 #### [Welcome to AI-Interview Discussions !](https://github.com/aryasoni98/AI-Interview/discussions)
 
-<br>
-
 <div>
 
 ### ❤️ Project Admin
