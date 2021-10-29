@@ -172,13 +172,13 @@ To use the web app :
 - Take a look at the Existing [Issues](https://github.com/aryasoni98/AI-Interview/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you.
 - Fork the repository
-- Have a look at [Contibuting Guidelines](https://github.com/aryasoni98/AI-Interview/blob/main/CONTRIBUTING.md)
+- Have a look at [Contibuting Guidelines](https://github.com/aryasoni98/AI-Interview/blob/master/CONTRIBUTING.md)
 
 #### [Welcome to AI-Interview Discussions !](https://github.com/aryasoni98/AI-Interview/discussions)
 
 <div>
 
-### ❤️ Project Admin
+### ❤️ Project Member
 
  <table>
  	<tr>
@@ -188,11 +188,21 @@ To use the web app :
  				<br /> <sub><b>Arya Soni</b></sub>
  			</a>
  			<br /> <a href="https://github.com/aryasoni98">
- 		   👑
+ 		   Admin
+ 	    </a>
+ 		</td>
+		 <td align="center">
+ 			<a href="https://github.com/shubhigupta991">
+ 				<img src="https://avatars.githubusercontent.com/u/58917829?s=400&u=a792b01ef12ba7f84049ee3382f256738dc0a0de&v=4" width="100px" alt="" />
+ 				<br /> <sub><b>Shubhangi Gupta</b></sub>
+ 			</a>
+ 			<br /> <a href="https://github.com/shubhigupta991">
+ 		   Mentor
  	    </a>
  		</td>
  	</tr>
  </table>
+ 
 
 ### 🌟 Contributors
 
@@ -201,9 +211,9 @@ To use the web app :
 <table>
 	<tr>
 		<td>
-       <a href="https://github.com/aryasoni98/AI-Interview/graphs/contributors">
-       <img src="https://contrib.rocks/image?repo=aryasoni98/AI-Interview" />
-       </a>
+			<a href="https://github.com/aryasoni98/AI-Interview/graphs/contributors">
+			<img src="https://contrib.rocks/image?repo=aryasoni98/AI-Interview" />
+			</a>
 		</td>
 	</tr>
 </table>
