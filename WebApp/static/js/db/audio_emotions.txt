@@ -1,6 +1,5 @@
 EMOTIONS
 Neutral
-<<<<<<< HEAD
 Neutral
 Neutral
 Neutral
@@ -8,21 +7,8 @@ Neutral
 Neutral
 Neutral
 Neutral
-Disgust
-Disgust
-Sad
 Neutral
-=======
-Disgust
-Disgust
-Disgust
-Angry
-Angry
-Angry
-Disgust
-Disgust
-Disgust
-Angry
-Angry
-Angry
->>>>>>> f5d77ca6bf9ee142e8625d0da5f5140497ddd45d
+Neutral
+Neutral
+Neutral
+Neutral
