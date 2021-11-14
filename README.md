@@ -1,24 +1,26 @@
-<div align="center">
+<p align="center">
+  <img src="./WebApp/static/images/logo/logo.png" width="350" title="logo">
+</p>
 
-![image](./WebApp/static/images/logo/logo.png)
+<h1 align="center">AI Interview System</h1>
 
-# AI Interview System
+<p align="center">
+  <img src="https://img.shields.io/github/issues/aryasoni98/AI-Interview" title="logo">
+  <img src="https://img.shields.io/github/issues-pr/aryasoni98/AI-Interview" title="logo">
+  <img src="https://img.shields.io/github/forks/aryasoni98/AI-Interview" title="logo">
+  <img src="https://img.shields.io/github/stars/aryasoni98/AI-Interview" title="logo">
+  <img src="https://img.shields.io/github/license/aryasoni98/AI-Interview" title="logo">
+</p>
 
-![Issues](https://img.shields.io/github/issues/aryasoni98/AI-Interview)
-![Pull Requests](https://img.shields.io/github/issues-pr/aryasoni98/AI-Interview)
-![Forks](https://img.shields.io/github/forks/aryasoni98/AI-Interview)
-![Stars](https://img.shields.io/github/stars/aryasoni98/AI-Interview)
-![License](https://img.shields.io/github/license/aryasoni98/AI-Interview)
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/check-it-out.svg" title="logo">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" title="logo">
+  <img src="https://forthebadge.com/images/badges/built-by-developers.svg" title="logo">
+  <img src="https://forthebadge.com/images/badges/open-source.svg" title="logo">
+  <img src="https://forthebadge.com/images/badges/made-with-python.svg" title="logo">
+  <img src="https://forthebadge.com/images/badges/uses-git.svg" title="logo">
+</p>
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
-
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
-
-</diV>
 
 # About
 
@@ -174,8 +176,11 @@ To use the web app :
 - Fork the repository
 - Have a look at [Contibuting Guidelines](https://github.com/aryasoni98/AI-Interview/blob/master/CONTRIBUTING.md)
 
+---
+
 #### [Welcome to AI-Interview Discussions !](https://github.com/aryasoni98/AI-Interview/discussions)
 
+---
 <div>
 
 ### ❤️ Project Member
