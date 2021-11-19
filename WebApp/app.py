@@ -26,8 +26,6 @@ from tika import parser
 from werkzeug.utils import secure_filename
 import tempfile
 
-
-
 # Flask config
 app = Flask(__name__)
 app.secret_key = b'(\xee\x00\xd4\xce"\xcf\xe8@\r\xde\xfc\xbdJ\x08W'
