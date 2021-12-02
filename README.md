@@ -32,7 +32,7 @@ We analye facial, vocal and textual emotions, using mostly deep learning based a
 
 ---
 
-![image](./UI/landing.png)
+![image](./UI/Landing.png)
 
 The tool can be accessed from the WebApp repository, by installing the requirements and launching `main.py`.
 
@@ -83,7 +83,7 @@ Following the three blocks, we chose to stack 3 LSTM cells with 180 outputs each
 
 ## Audio Analysis
 
-![image](./UI/audio.png)
+![image](./UI/Audio.png)
 
 #### Pipeline
 
@@ -116,7 +116,7 @@ To limit overfitting, we tuned the model with :
 
 ## Video Analysis
 
-![image](./UI/video.png)
+![image](./UI/Video.png)
 
 #### Pipeline
 
