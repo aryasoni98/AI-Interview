@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.4.2",
+    "@craco/craco": "^5.9.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -14,7 +14,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.2.1",
     "react-scripts": "^4.0.3",
-    "react-video-recorder": "^3.19.1",
+    "react-video-recorder": "^3.17.1",
     "render": "^0.1.4",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
