@@ -31,8 +31,6 @@ git checkout <branch-name>
 git rebase upstream/<branch-name>
 ```  
 
-
-
 ### Step 2 : Branch
 
 Create a new branch. Use its name to identify the issue your addressing.

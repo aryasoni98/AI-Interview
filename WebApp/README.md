@@ -35,4 +35,4 @@ The organization of the project is the following :
   - JS : The JavaScript of the app (D3.js) and the databases that store the information
 - templates : All the HTML pages of the project
 - tmp : Temporary files (i.e. an image from video interview, an audio file or a PDF)
-- main.py : The Flask page that calls the functions and redirects to HTML files
+- app.py : The Flask page that calls the functions and redirects to HTML files

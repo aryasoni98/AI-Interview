@@ -60,6 +60,7 @@ instance/
 docs/_build/
 target/
 .python-version
+
 #Pipfile.lock
 __pypackages__/
 celerybeat-schedule
