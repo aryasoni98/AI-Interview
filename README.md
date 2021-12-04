@@ -50,36 +50,6 @@ Our aim is to develop a model able to provide a live sentiment analysis with a v
 
 ---
 
-## Text Analysis
-
-![image](./WebApp/static/images/Screenshot/text.png)
-
-#### Pipeline
-
-The text-based personality recognition pipeline has the following structure :
-- Text data retrieving
-- Custom natural language preprocessing :
-	- Tokenization of the document
-	- Cleaning and standardization of formulations using regular expressions
-	- Deletion of the punctuation
-	- Lowercasing the tokens
-	- Removal of predefined *stopwords*
-	- Application of part-of-speech tags on the remaining tokens
-	- Lemmatization of tokens using part-of-speech tags for more accuracy.
-	- Padding the sequences of tokens of each document to constrain the shape of the input vectors.
-- 300-dimension **Word2Vec** trainable embedding
-- Prediction using our pre-trained model
-
-#### Model
-
-We have chosen a neural network architecture based on both one-dimensional convolutional neural networks and recurrent neural networks.
-The one-dimensional convolution layer plays a role comparable to feature extraction : it allows finding patterns in text data. The Long-Short Term Memory cell is then used in order to leverage on the sequential nature of natural language : unlike regular neural network where inputs are assumed to be independent of each other, these architectures progressively accumulate and capture information through the sequences. LSTMs have the property of selectively remembering patterns for long durations of time.
-Our final model first includes 3 consecutive blocks consisting of the following four layers : one-dimensional convolution layer - max pooling - spatial dropout - batch normalization. The numbers of convolution filters are respectively 128, 256 and 512 for each block, kernel size is 8, max pooling size is 2 and dropout rate is 0.3.
-Following the three blocks, we chose to stack 3 LSTM cells with 180 outputs each. Finally, a fully connected layer of 128 nodes is added before the last classification layer.
-
-![image](./WebApp/static/images/README/text_pipeline.png)
-
----
 
 ## Audio Analysis
 
