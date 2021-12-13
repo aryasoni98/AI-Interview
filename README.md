@@ -171,7 +171,7 @@ To use the web app :
  				<br /> <sub><b>Shubhangi Gupta</b></sub>
  			</a>
  			<br /> <a href="https://github.com/shubhigupta991">
- 		   Mentor
+ 		   Member
  	    </a>
  		</td>
  	</tr>
