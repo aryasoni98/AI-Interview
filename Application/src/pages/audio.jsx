@@ -4,12 +4,12 @@ import {Link} from "react-router-dom"
 const Audio= ()=>{
     return (
         <>
-            <div className="my-16">
-                <div className="flex  mb-16">
+            <div>
+                <div className="flex">
                     <div className="w-full ml-32 p-10 m-16 ">
                         <h1 className="text-7xl mb-16 font-semibold font-link ">audio interview.</h1>
                        
-                        <div className="w-3/5 text-xl mb-16">
+                        <div className="w-3/5 text-xl mb-12">
                             <p>Use the audio interview simulator  and get a feedback on how our 
                                 algorithm interprets your facial emotions compared to other candidates.
                             </p>
@@ -20,7 +20,6 @@ const Audio= ()=>{
                             <br />
                             <p className="font-extralight">Anger | Happiness | Fear | Sadness | Surprise | Disgust</p>
                         </div>
-                        <br />
                         <br />
                         <div className="flex gap-10">
                             <Link to="/interview/a">
