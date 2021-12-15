@@ -171,7 +171,7 @@ To use the web app :
  				<br /> <sub><b>Shubhangi Gupta</b></sub>
  			</a>
  			<br /> <a href="https://github.com/shubhigupta991">
- 		   Mentor
+ 		   Member
  	    </a>
  		</td>
  	</tr>
@@ -192,3 +192,5 @@ To use the web app :
 	</tr>
 </table>
 </div>
+
+<a href="https://www.producthunt.com/posts/ai-interview-system?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai-interview-system" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=322838&theme=light" alt="AI Interview System - Test & Developed Your Interview Skills | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
