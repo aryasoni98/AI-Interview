@@ -15,10 +15,8 @@ firstPRMergeComment: >
 newIssueWelcomeComment: >
   Thanks for opening a new issue to this repo! Don't forget to go through our Code of Conduct and Contributing Guidelines, and wait until you get assigned by one of our maintainers to work on the issue!
 
-# *OPTIONAL* default titles to check against for lack of descriptiveness
-# MUST BE ALL LOWERCASE
 requestInfoDefaultTitles:
   - update readme.md
-  - updates
+  - update
   - minor fixes
   - bug fixes
