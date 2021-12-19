@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const Navbar  = ()=>{
     return (
         <>
-            <div className="h-16 " style={{backgroundColor: "#e5e8eb"}}>
-               <nav className=" px-3" >
-                    <div className="flex items-center pb-10 justify-between">
+            <div className="h-100 py-2" style={{backgroundColor: "#e5e8eb"}}>
+               <nav className="px-3">
+                    <div className="flex items-center justify-between">
                     <Link to="/">
                         <div>
                             <a class="navbar-brand">
@@ -16,7 +16,7 @@ const Navbar  = ()=>{
                             </a>
                         </div>
                     </Link>
-                        <div className="flex items-center gap-28">
+                        <div className="flex items-center gap-8">
                             <div className="flex gap-8">
 
                             <Link to="/video">
