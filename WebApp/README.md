@@ -13,6 +13,10 @@ To use the web app :
 - Launch the app by running `python app.py`
 - Go to http://127.0.0.1:5000/ (or follow the link given in your terminal
 
+The web app has been dockerized
+- First build the image, run `docker-compose build`
+- Then start/run the container, run `docker-compose run`
+
 ## How does it work ?
 
 As stated in the project home page, we have defined and trained deep learning models to analyze emotions and psychological traits from video, audio and text inputs.
