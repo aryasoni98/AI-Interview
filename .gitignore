@@ -82,3 +82,6 @@ venv.bak/
 dmypy.json
 .pyre/
 .pytype/
+
+# Local Netlify folder
+.netlify
