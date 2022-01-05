@@ -1,21 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Firebase google auth
-import { authentication } from "../Firebase/firebase-config";
-import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+// import { authentication } from "../Firebase/firebase-config";
+// import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const Landing = ()=>{
 
-    const signInWithGoogle = () => {
-        const provider = new GoogleAuthProvider();
-        signInWithPopup(authentication, provider)
-        .then((re) => {
-            console.log(re);
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-    }
+    // const signInWithGoogle = () => {
+    //     const provider = new GoogleAuthProvider();
+    //     signInWithPopup(authentication, provider)
+    //     .then((re) => {
+    //         console.log(re);
+    //     })
+    //     .catch((err) => {
+    //         console.log(err);
+    //     })
+    // }
 
     return (
         <>
@@ -29,7 +29,6 @@ const Landing = ()=>{
                     <Link to="/video">
                     <button 
                         className="border-2 px-4 py-2 mb-16 border-black text-lg font-extralight rounded-md"
-                        onClick={signInWithGoogle}
                     >
                         <a class="default-btn bg-main">Get Start</a>
                     </button>
