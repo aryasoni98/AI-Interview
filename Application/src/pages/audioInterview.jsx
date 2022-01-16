@@ -1,33 +1,79 @@
-import React from "react";
-import Videorecorder from "react-video-recorder";
+import React,{useState,useEffect} from "react";
+
+
 const AudioInterview = () => {
+  const [playing, setPlaying] = useState(false);
+
+  const HEIGHT = 600;
+  const WIDTH = 1200;
+
+  const startVideo = () => {
+    setPlaying(true);
+    navigator.getUserMedia(
+      {
+        video: true,
+      },
+      (stream) => {
+        let video = document.getElementsByClassName("app__videoFeed")[0];
+        if (video) {
+          video.srcObject = stream;
+        }
+      },
+      (err) => console.error(err)
+    );
+  };
+
+  const stopVideo = () => {
+    setPlaying(false);
+    let video = document.getElementsByClassName("app__videoFeed")[0];
+    video.srcObject.getTracks()[0].stop();
+  };
+
   return (
     <>
-      <div className="flex flex-col items-center my-2 px-52 ">
-        <h1 className="text-7xl font-link font-semibold mb-16">
+      <div className="d-flex flex-column align-items-center my-2 px-52 ">
+        <h1 className="display-1 font-link font-weight-bold mb-16" style={{fontWeight:"bolder", marginBottom:"60px"}}>
           audio interview .
         </h1>
 
-        <div className="w-full h-full flex gap-12">
-          <div className="w-full h-full ">
-            <div style={{ height: "550px" }} className="w-full h-full ">
-              <Videorecorder className="w-full h-full" />
+        <div className="w-full h-full d-flex " style={{gap:120 ,}}>
+          <div className="w-full h-full " style={{marginLeft:"200px"}}>
+
+            <div className="app">
+              <div className="app__container bg-dark p-2" style={{height:"600px", width:"900px", marginBottom:"60px"  }}>
+                <video
+                  height={HEIGHT}
+                  width={WIDTH}
+                  muted
+                  autoPlay
+                  className="app__videoFeed"
+                  style={{paddingRight:"300px", paddingBottom:"20px"}}
+                ></video>
+              </div>
+              <div className="app__input ">
+                {playing ? (
+                  <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2" onClick={stopVideo}>Stop</button>
+                ) : (
+                  <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2" onClick={startVideo}>Start</button>
+                )}
+              </div>
             </div>
-            <div className="flex m-4 justify-evenly	">
-              <button className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue text-lg font-medium rounded-md">
+
+            {/* <div className="d-flex m-4 justify-evenly	">
+              <button className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue fs-2 font-medium rounded-2">
                 Start
               </button>
-
-              <button className="border-2 m-4 px-5 text-blue py-2 border-black text-lg font-medium rounded-md">
+              <button className="border-2 m-4 px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
                 Stop
-              </button>
-            </div>
+              </button> */}
+            {/* </div> */}
           </div>
-          <div className="flex flex-col gap-5 ml-12 w-2/5 text-xl font-regular">
-            <div className="bg-gray-300 h-1/4 w-full rounded-md p-4">
+
+        <div className="d-flex flex-column gap-4 ml-12 text-xl font-regular"style={{marginTop:"45px" , height:"100%"}}>
+            <div className="w-full rounded-2 fs-3 p-2 ml-4" style={{backgroundColor:"lightgrey",height:"100px",width:"500px"}}>
               You will have 15 mins to answer the questions mentioned above.
             </div>
-            <div className="bg-gray-300 h-3/4 w-full rounded-md p-4">
+            <div className=" rounded-2 p-4 fs-2" style={{backgroundColor:"lightgrey",height:"450px",width:"500px"}}>
               Qus 1
               <br />
               Qus 2
@@ -35,8 +81,8 @@ const AudioInterview = () => {
               Qus 3
               <br />
             </div>
-            <div className="flex m-4 justify-evenly	">
-              <button className="border-2 m-4 px-5 text-blue py-2 border-black text-lg font-medium rounded-md">
+            <div className="d-flex  justify-evenly mb-10 pt-5	">
+              <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
                 Result
               </button>
             </div>
@@ -46,5 +92,4 @@ const AudioInterview = () => {
     </>
   );
 };
-
 export default AudioInterview;
