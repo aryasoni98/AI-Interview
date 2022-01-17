@@ -1,9 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom"
+import Navbar from "../components/navbar.component";
+import Footer from "../components/footer.component";
 
 const Video= ()=>{
     return (
         <>
+        <Navbar/>
             <div className="my-16">
                 <div className="d-flex  mb-16">
                     <div className="w-full p-10 m-16 " style={{ margin:"150px 100px 220px 220px "}} >
@@ -23,14 +26,17 @@ const Video= ()=>{
                         <br />
                         <br />
                         {/* <div className="d-flex gap-10">
+                            <Link to="/interview/a">
                             <button className="bg-black font-light px-5 py-2 rounded-2">Interview</button>
+                            </Link>
                             <button classNa
                             me="border-2 border-black font-dark px-6 py-2 rounded-2">Result</button>
                         </div> */}
-                        <div className="d-flex" style={{gap:50}}>
-                            <Link to="/interview/a">
-                            <button type="button" class="btn btn-dark px-3 py-2" style={{margin:"20px"}}>Interview</button>
-                            <button type="button" class="btn btn-outline-dark px-3 py-2">Result</button>
+                        <div className=" gap-2" >
+
+                            <Link to="/interview/v" >
+                                    <button type="button" class="btn btn-dark px-3 mr-4 py-2" style={{margin:"20px"}}>Interview</button>
+                                    <button type="button" class="btn btn-outline-dark py-2">Result</button>
                             </Link>
                         </div>
 
@@ -43,6 +49,7 @@ const Video= ()=>{
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

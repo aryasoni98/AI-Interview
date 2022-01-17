@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from "react";
-
+import Navbar from "../components/navbar.component";
+import Footer from "../components/footer.component";
+import { Audioo } from "../components/audiorecorder";
 
 const AudioInterview = () => {
   const [playing, setPlaying] = useState(false);
@@ -31,31 +33,21 @@ const AudioInterview = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="d-flex flex-column align-items-center my-2 px-52 ">
-        <h1 className="display-1 font-link font-weight-bold mb-16" style={{fontWeight:"bolder", marginBottom:"60px"}}>
+        <h1 className="display-1 font-link font-weight-bold " style={{fontWeight:"bolder", marginBottom:"30px"}}>
           audio interview .
         </h1>
 
         <div className="w-full h-full d-flex " style={{gap:120 ,}}>
-          <div className="w-full h-full " style={{marginLeft:"200px"}}>
+          <div className="w-full h-full " style={{marginLeft:"75px"}}>
 
             <div className="app">
               <div className="app__container bg-dark p-2" style={{height:"600px", width:"900px", marginBottom:"60px"  }}>
-                <video
-                  height={HEIGHT}
-                  width={WIDTH}
-                  muted
-                  autoPlay
-                  className="app__videoFeed"
-                  style={{paddingRight:"300px", paddingBottom:"20px"}}
-                ></video>
+              <div style={{ marginTop:"240px",marginLeft:"120px"  }}>
+
+                <Audioo />
               </div>
-              <div className="app__input ">
-                {playing ? (
-                  <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2" onClick={stopVideo}>Stop</button>
-                ) : (
-                  <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2" onClick={startVideo}>Start</button>
-                )}
               </div>
             </div>
 
@@ -69,7 +61,7 @@ const AudioInterview = () => {
             {/* </div> */}
           </div>
 
-        <div className="d-flex flex-column gap-4 ml-12 text-xl font-regular"style={{marginTop:"45px" , height:"100%"}}>
+        <div className="d-flex flex-column ml-12 text-xl font-regular"style={{marginTop:"45px" ,gap:24, height:"100%"}}>
             <div className="w-full rounded-2 fs-3 p-2 ml-4" style={{backgroundColor:"lightgrey",height:"100px",width:"500px"}}>
               You will have 15 mins to answer the questions mentioned above.
             </div>
@@ -81,14 +73,15 @@ const AudioInterview = () => {
               Qus 3
               <br />
             </div>
-            <div className="d-flex  justify-evenly mb-10 pt-5	">
-              <button className="border-2  px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
+            <div className="d-flex  justify-evenly pt-5	"style={{marginBottom:"40px"}}>
+              <button className="border-2  px-5 text-blue py-2 border-black fs-4 font-medium rounded-2" >
                 Result
               </button>
             </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

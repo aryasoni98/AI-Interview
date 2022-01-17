@@ -1,9 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom"
+import Navbar from "../components/navbar.component";
+import Footer from "../components/footer.component";
 
 const Audio= ()=>{
     return (
         <>
+        <Navbar/>
             <div className="my-16">
                 <div className="d-flex  mb-16">
                     <div className="w-full p-10 m-16 " style={{ margin:"150px 100px 220px 220px "}} >
@@ -46,6 +49,7 @@ const Audio= ()=>{
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

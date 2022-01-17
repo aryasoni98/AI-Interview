@@ -9,8 +9,7 @@ import Audio from "./pages/audio";
 import Video from "./pages/video";
 import VideoInterview from "./pages/videoInterview";
 import AudioInterview from "./pages/audioInterview";
-import Navbar from "./components/navbar.component";
-import Footer from "./components/footer.component";
+
 
 const App=()=> {
   return (
@@ -19,15 +18,19 @@ const App=()=> {
 
         <Router>
         <div>
-            <Navbar />
+            
             <Route path="/" exact component={Landing} />
             <Route path="/audio" exact component={Audio} />
             <Route path="/video" exact component={Video} />
             <Route path="/interview/v" exact component={VideoInterview} />
             <Route path="/interview/a" exact component={AudioInterview} />
-            <Footer/>
         </div>
         </Router>
+        
+
+
+
+
       {/* <InterviewType>
       <Landing/>
       </InterviewType>

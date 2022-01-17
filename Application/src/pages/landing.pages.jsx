@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Footer from "../components/footer.component";
+import Newnavbar from "../components/newnavbar";
 const Landing = ()=>{
     return (
         <>
-            <div className="py-6 w-100" style={{width:"100%"}}> 
+        <Newnavbar/>
+            <div className="py-24 w-100" style={{width:"100%",}}> 
                 <br/>
                 <div className="d-flex flex-column font-link align-items-center my-3">
                     <h1 className=" display-1 " style={{fontWeight:"bolder", marginBottom:"60px"}} >AI Interview Test</h1>
@@ -20,10 +22,11 @@ const Landing = ()=>{
 
                 <div >
                     <div class="landing-img" style={{width:"100%"}}>
-                        <img src="../images/landing.svg"  style={{width:"100%" , height:"100%"}} alt="Landing" />
+                        <img src="../images/landing.svg"  style={{width:"100%" , height:"600px"}} alt="Landing" />
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

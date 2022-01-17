@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
-
+import Navbar from "../components/navbar.component";
+import Footer from "../components/footer.component";
 
 const VideoInterview = () => {
   const [playing, setPlaying] = useState(false);
@@ -31,6 +32,7 @@ const VideoInterview = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="d-flex flex-column align-items-center my-2 px-52 ">
         <h1 className="display-1 font-link font-weight-bold mb-16" style={{fontWeight:"bolder", marginBottom:"60px"}}>
           video interview .
@@ -89,6 +91,7 @@ const VideoInterview = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
