@@ -1,6 +1,8 @@
 import React ,{Component} from "react";
 import {FaGithub, FaProductHunt} from "react-icons/fa";
 
+import Logo from "../assets/logo/logo.svg";
+
 import { Link } from "react-router-dom";
 
 const Navbar  = ()=>{
@@ -13,7 +15,7 @@ const Navbar  = ()=>{
                     <Link to="/">
                         <div>
                             <a className="navbar-brand">
-                                <img src="../logo/logo.svg" alt="logo" />
+                                <img src={Logo} alt="logo" />
                             </a>
                         </div>
                     </Link>
