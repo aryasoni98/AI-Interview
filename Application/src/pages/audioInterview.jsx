@@ -35,16 +35,16 @@ const AudioInterview = () => {
     <>
     <Navbar/>
       <div className="d-flex flex-column align-items-center my-2 px-52 ">
-        <h1 className="display-1 font-link font-weight-bold " style={{fontWeight:"bolder", marginBottom:"30px"}}>
+        <h1 className="display-2 font-link font-weight-bold " style={{fontWeight:"bolder"}}>
           audio interview .
         </h1>
 
-        <div className="w-full h-full d-flex " style={{gap:120 ,}}>
+        <div className="w-full h-full d-flex " style={{gap:80 ,}}>
           <div className="w-full h-full " style={{marginLeft:"75px"}}>
 
             <div className="app">
-              <div className="app__container bg-dark p-2" style={{height:"600px", width:"900px", marginBottom:"60px"  }}>
-              <div style={{ marginTop:"240px",marginLeft:"120px"  }}>
+              <div className="app__container bg-dark p-2" style={{height:"500px", width:"700px", marginBottom:"60px",marginLeft:"-50px"  }}>
+              <div style={{ marginTop:"190px",marginLeft:"20px",  }}>
 
                 <Audioo />
               </div>
@@ -61,11 +61,11 @@ const AudioInterview = () => {
             {/* </div> */}
           </div>
 
-        <div className="d-flex flex-column ml-12 text-xl font-regular"style={{marginTop:"45px" ,gap:24, height:"100%"}}>
-            <div className="w-full rounded-2 fs-3 p-2 ml-4" style={{backgroundColor:"lightgrey",height:"100px",width:"500px"}}>
+        <div className="d-flex flex-column ml-12 text-xl font-regular"style={{marginTop:"25px" ,gap:10, height:"100%"}}>
+            <div className="w-full rounded-2 fs-4 p-2 ml-4" style={{backgroundColor:"lightgrey",height:"100px",width:"380px"}}>
               You will have 15 mins to answer the questions mentioned above.
             </div>
-            <div className=" rounded-2 p-4 fs-2" style={{backgroundColor:"lightgrey",height:"450px",width:"500px"}}>
+            <div className=" rounded-2 p-4 fs-4" style={{backgroundColor:"lightgrey",height:"370px",width:"380px"}}>
               Qus 1
               <br />
               Qus 2
@@ -74,7 +74,7 @@ const AudioInterview = () => {
               <br />
             </div>
             <div className="d-flex  justify-evenly pt-5	"style={{marginBottom:"40px"}}>
-              <button className="border-2  px-5 text-blue py-2 border-black fs-4 font-medium rounded-2" >
+              <button className="border-2  px-3 text-blue border-black fs-4 font-medium rounded-2" >
                 Result
               </button>
             </div>
