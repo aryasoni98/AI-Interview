@@ -3,6 +3,8 @@ import {Link} from "react-router-dom"
 import Navbar from "../components/navbar.component";
 import Footer from "../components/footer.component";
 
+import SideBot from "../assets/images/sideBot.svg"
+
 const Audio= ()=>{
     return (
         <>
@@ -44,7 +46,7 @@ const Audio= ()=>{
                     
                     <div >
                         <div class="sideBot-img"  className="w-96 h-full">
-                            <img src="../images/sideBot.svg" className="h-full w-full " alt="Side Bot" />
+                            <img src={SideBot} className="h-full w-full " alt="Side Bot" />
                         </div>
                     </div>
                 </div>

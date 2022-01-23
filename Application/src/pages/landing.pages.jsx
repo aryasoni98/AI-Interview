@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/footer.component";
 import Newnavbar from "../components/newnavbar";
+
+import LandingPageImg from "../assets/images/landing.svg";
+
 const Landing = ()=>{
     return (
         <>
@@ -22,7 +25,7 @@ const Landing = ()=>{
 
                 <div >
                     <div class="landing-img" style={{width:"100%"}}>
-                        <img src="../images/landing.svg"  style={{width:"100%" , height:"600px"}} alt="Landing" />
+                        <img src={LandingPageImg} style={{width:"100%" , height:"600px"}} alt="Landing" />
                     </div>
                 </div>
             </div>

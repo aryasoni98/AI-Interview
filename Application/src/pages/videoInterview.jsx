@@ -1,34 +1,34 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import Navbar from "../components/navbar.component";
 import Footer from "../components/footer.component";
 
 const VideoInterview = () => {
-  const [playing, setPlaying] = useState(false);
+  //const [playing, setPlaying] = useState(false);
 
-  const HEIGHT = 600;
-  const WIDTH = 1200;
+  const HEIGHT = 440;
+  const WIDTH = 600;
 
-  const startVideo = () => {
-    setPlaying(true);
-    navigator.getUserMedia(
-      {
-        video: true,
-      },
-      (stream) => {
-        let video = document.getElementsByClassName("app__videoFeed")[0];
-        if (video) {
-          video.srcObject = stream;
-        }
-      },
-      (err) => console.error(err)
-    );
-  };
+  // const startVideo = () => {
+  //   setPlaying(true);
+  //   navigator.getUserMedia(
+  //     {
+  //       video: true,
+  //     },
+  //     (stream) => {
+  //       let video = document.getElementsByClassName("app__videoFeed")[0];
+  //       if (video) {
+  //         video.srcObject = stream;
+  //       }
+  //     },
+  //     (err) => console.error(err)
+  //   );
+  // };
 
-  const stopVideo = () => {
-    setPlaying(false);
-    let video = document.getElementsByClassName("app__videoFeed")[0];
-    video.srcObject.getTracks()[0].stop();
-  };
+  // const stopVideo = () => {
+  //   setPlaying(false);
+  //   let video = document.getElementsByClassName("app__videoFeed")[0];
+  //   video.srcObject.getTracks()[0].stop();
+  // };
 
   return (
     <>
@@ -53,22 +53,17 @@ const VideoInterview = () => {
                 ></video>
               </div>
               <div className="app__input ">
-                {playing ? (
+                {/* {playing ? (
                   <button className="border-2  px-3 text-blue  border-black fs-4 font-medium rounded-2" onClick={stopVideo} style={{marginTop:"20px",marginBottom:"20px"}}>Stop</button>
                 ) : (
                   <button className="border-2  px-3 text-blue border-black fs-4 font-medium rounded-2" onClick={startVideo} style={{marginTop:"20px",marginBottom:"20px"}}>Start</button>
-                )}
+                )} */}
+                 <form action="/video_1" method="post">
+                    <input type="submit" name="video" value="Start Recording" className="border-2  px-3 text-blue  border-black fs-4 font-medium rounded-2" />
+                  </form>
               </div>
             </div>
 
-            {/* <div className="d-flex m-4 justify-evenly	">
-              <button className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue fs-2 font-medium rounded-2">
-                Start
-              </button>
-              <button className="border-2 m-4 px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
-                Stop
-              </button> */}
-            {/* </div> */}
           </div>
 
         <div className="d-flex flex-column gap-4 ml-12 text-xl font-regular"style={{marginTop:"30px" , height:"100%"}}>
