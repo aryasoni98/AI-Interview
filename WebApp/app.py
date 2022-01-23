@@ -255,5 +255,5 @@ def audio_dash():
 
     return render_template('audio_dash.html', emo=major_emotion, emo_other=major_emotion_other, prob=emotion_dist, prob_other=emotion_dist_other)
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+port = int(os.environ.get("PORT", 5000))
+app.run(host='0.0.0.0', port=port)
