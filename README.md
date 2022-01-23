@@ -27,18 +27,15 @@ Selection in big companies requires an aspirant to be proficient in coding as we
 
 ---
 We developped a AI interview emotion recognition platform to analyze the emotions of job candidates.
-
-We analye facial, vocal and textual emotions, using mostly deep learning based approaches. We deployed a web app using Flask :
-
 ---
 
-![image](./UI/Landing.png)
+![image](./Images/Landing.png)
 
 The tool can be accessed from the WebApp repository, by installing the requirements and launching `main.py`.
 
 ## Technologies
 
-![image](./WebApp/static/images/README/techno.png)
+![image](./Images/techno.png)
 
 ---
 
@@ -53,7 +50,7 @@ Our aim is to develop a model able to provide a live sentiment analysis with a v
 
 ## Audio Analysis
 
-![image](./UI/Audio.png)
+![image](./Images/Audio.png)
 
 #### Pipeline
 
@@ -71,7 +68,7 @@ The model we have chosen is a **Time Distributed Convolutional Neural Network**.
 The main idea of a **Time Distributed Convolutional Neural Network** is to apply a rolling window (fixed size and time-step) all along the log-mel-spectrogram.
 Each of these windows will be the entry of a convolutional neural network, composed by four Local Feature Learning Blocks (LFLBs) and the output of each of these convolutional networks will be fed into a recurrent neural network composed by 2 cells LSTM (Long Short Term Memory) to learn the long-term contextual dependencies. Finally, a fully connected layer with *softmax* activation is used to predict the emotion detected in the voice.
 
-![image](./WebApp/static/images/README/sound_pipeline.png)
+![image](./Images/sound_pipeline.png)
 
 To limit overfitting, we tuned the model with :
 - Audio data augmentation
@@ -86,7 +83,7 @@ To limit overfitting, we tuned the model with :
 
 ## Video Analysis
 
-![image](./UI/Video.png)
+![image](./Images/Video.png)
 
 #### Pipeline
 
@@ -108,21 +105,21 @@ The model we have chosen is an **XCeption** model, since it outperformed the oth
 - Class weight balancing
 - And kept the best model
 
-![image](./WebApp/static/images/README/model_fit.png)
+![image](./Images/model_fit.png)
 
 The XCeption architecture is based on DepthWise Separable convolutions that allow to train much fewer parameters, and therefore reduce training time on Colab's GPUs to less than 90 minutes.
 
-![image](./WebApp/static/images/README/video_pipeline2.png)
+![image](./Images/video_pipeline2.png)
 
 When it comes to applying CNNs in real life application, being able to explain the results is a great challenge. We can indeed  plot class activation maps, which display the pixels that have been activated by the last convolution layer. We notice how the pixels are being activated differently depending on the emotion being labeled. The happiness seems to depend on the pixels linked to the eyes and mouth, whereas the sadness or the anger seem for example to be more related to the eyebrows.
 
-![image](./WebApp/static/images/README/light.png)
+![image](./Images/light.png)
 
 ## Ensemble Model
 
 The ensemble model has not been implemented on this version.
 
-![image](./WebApp/static/images/README/ensemble_pipeline.png)
+![image](./Images/ensemble_pipeline.png)
 
 ---
 
@@ -137,6 +134,10 @@ To use the web app :
 - Go in the WebApp folder
 - Run `$ pip install -r requirements.txt``
 - Launch `python app.py`
+
+The web app has been dockerized
+- First build the image, run `docker-compose build`
+- Then start/run the container, run `docker-compose up`
 
 ## How to Contribute to AI Interview System?
 
@@ -176,7 +177,7 @@ To use the web app :
  		</td>
  	</tr>
  </table>
- 
+
 
 ### 🌟 Contributors
 
