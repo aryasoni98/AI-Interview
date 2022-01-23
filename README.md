@@ -27,9 +27,6 @@ Selection in big companies requires an aspirant to be proficient in coding as we
 
 ---
 We developped a AI interview emotion recognition platform to analyze the emotions of job candidates.
-
-We analye facial, vocal and textual emotions, using mostly deep learning based approaches. We deployed a web app using Flask :
-
 ---
 
 ![image](./UI/Landing.png)
@@ -138,6 +135,10 @@ To use the web app :
 - Run `$ pip install -r requirements.txt``
 - Launch `python app.py`
 
+The web app has been dockerized
+- First build the image, run `docker-compose build`
+- Then start/run the container, run `docker-compose up`
+
 ## How to Contribute to AI Interview System?
 
 - Take a look at the Existing [Issues](https://github.com/aryasoni98/AI-Interview/issues) or create your own Issues!
@@ -176,7 +177,7 @@ To use the web app :
  		</td>
  	</tr>
  </table>
- 
+
 
 ### 🌟 Contributors
 

@@ -12,7 +12,7 @@ click==8.0.3
 # cmake==3.22.0
 cycler==0.11.0
 decorator==5.1.0
-# dlib==19.22.1 
+# dlib==19.22.1
 entrypoints==0.3
 Flask==2.0.2
 flatbuffers==2.0
@@ -42,13 +42,13 @@ Markdown==3.3.6
 MarkupSafe==2.0.1
 matplotlib==3.5.1
 numba==0.54.1
-numpy==1.21.0
+numpy==1.20.3
 oauthlib==3.1.1
 opencv-python==4.5.4.60
 opt-einsum==3.3.0
 packaging==21.3
 pandas==1.3.4
-Pillow==9.0.0
+Pillow==8.4.0
 pooch==1.5.2
 protobuf==3.19.1
 pyasn1==0.4.8
@@ -82,36 +82,3 @@ Werkzeug==2.0.2
 wordcloud==1.8.1
 wrapt==1.13.3
 zipp==3.6.0
-Flask
-Gunicorn
-Werkzeug
-numpy
-pandas
-opencv-python
-cmake
-argparse
-scipy
-dlib
-tensorflow
-imutils
-tika
-wave
-nltk
-gensim
-seaborn
-scikit-learn
-dill
-keras
-wordcloud
-numpy
-pandas
-cv2
-time
-re
-os
-argparse
-collections
-scipy
-dlib
-tensorflow
-imutils

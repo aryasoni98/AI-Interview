@@ -15,7 +15,7 @@ To use the web app :
 
 The web app has been dockerized
 - First build the image, run `docker-compose build`
-- Then start/run the container, run `docker-compose run`
+- Then start/run the container, run `docker-compose up`
 
 ## How does it work ?
 
