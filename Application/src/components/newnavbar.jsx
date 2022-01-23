@@ -1,7 +1,8 @@
-import React ,{Component} from "react";
-import {FaGithub, FaProductHunt} from "react-icons/fa";
-
+import React from "react";
+import {FaGithub} from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+import Logo from "../assets/logo/logo.svg";
 
 const Newnavbar  = ()=>{
     return (
@@ -12,8 +13,8 @@ const Newnavbar  = ()=>{
                     
                     <Link to="/">
                         <div>
-                            <a className="navbar-brand">
-                                <img src="../logo/logo.svg" alt="logo" />
+                            <a className="navbar-brand" href="/">
+                                <img src={Logo} alt="logo" />
                             </a>
                         </div>
                     </Link>
