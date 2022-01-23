@@ -1,34 +1,34 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import Navbar from "../components/navbar.component";
 import Footer from "../components/footer.component";
 
 const VideoInterview = () => {
-  const [playing, setPlaying] = useState(false);
+  //const [playing, setPlaying] = useState(false);
 
   const HEIGHT = 440;
   const WIDTH = 600;
 
-  const startVideo = () => {
-    setPlaying(true);
-    navigator.getUserMedia(
-      {
-        video: true,
-      },
-      (stream) => {
-        let video = document.getElementsByClassName("app__videoFeed")[0];
-        if (video) {
-          video.srcObject = stream;
-        }
-      },
-      (err) => console.error(err)
-    );
-  };
+  // const startVideo = () => {
+  //   setPlaying(true);
+  //   navigator.getUserMedia(
+  //     {
+  //       video: true,
+  //     },
+  //     (stream) => {
+  //       let video = document.getElementsByClassName("app__videoFeed")[0];
+  //       if (video) {
+  //         video.srcObject = stream;
+  //       }
+  //     },
+  //     (err) => console.error(err)
+  //   );
+  // };
 
-  const stopVideo = () => {
-    setPlaying(false);
-    let video = document.getElementsByClassName("app__videoFeed")[0];
-    video.srcObject.getTracks()[0].stop();
-  };
+  // const stopVideo = () => {
+  //   setPlaying(false);
+  //   let video = document.getElementsByClassName("app__videoFeed")[0];
+  //   video.srcObject.getTracks()[0].stop();
+  // };
 
   return (
     <>

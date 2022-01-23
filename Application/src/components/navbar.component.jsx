@@ -1,5 +1,5 @@
-import React ,{Component} from "react";
-import {FaGithub, FaProductHunt} from "react-icons/fa";
+import React from "react";
+import {FaGithub} from "react-icons/fa";
 
 import Logo from "../assets/logo/logo.svg";
 
@@ -14,7 +14,7 @@ const Navbar  = ()=>{
                     
                     <Link to="/">
                         <div>
-                            <a className="navbar-brand">
+                            <a className="navbar-brand" href="/">
                                 <img src={Logo} alt="logo" />
                             </a>
                         </div>
