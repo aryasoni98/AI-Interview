@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/logo.png" width="350" title="logo">
+  <img src="./Images/logo.png" width="350" title="logo">
 </p>
 
 <h1 align="center">AI Interview System</h1>
