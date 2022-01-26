@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./WebApp/static/images/logo/logo.png" width="350" title="logo">
+  <img src="./images/logo.png" width="350" title="logo">
 </p>
 
 <h1 align="center">AI Interview System</h1>
@@ -26,7 +26,7 @@
 Selection in big companies requires an aspirant to be proficient in coding as well as fluent in his words. The latter sometimes becomes a major anchor for various students with the ability to achieve high otherwise. This is a problem that our current interface looks at resolving. We are building an interface that helps users with a situation by the use of an AI that asks questions on the basis of a code which the aspirant has written, asked from a diverse pack of frequently asked coding questions. Then the AI asks the aspirant questions related to his code and some staple questions. At the end of this experience, the user receives his interview profile showing him his flaws in answering questions, his fluency, and his ability to handle the situation verbally. This can be done on various levels and be stored for future scrutiny by the user. We can also provide a growth curve that helps the aspirant to judge his progress.
 
 ---
-We developped a AI interview emotion recognition platform to analyze the emotions of job candidates.
+We developed a AI interview emotion recognition platform to analysis the emotions of job candidates.
 ---
 
 ![image](./Images/Landing.png)
@@ -76,7 +76,7 @@ To limit overfitting, we tuned the model with :
 - And kept the best model
 
 <p align="center">
-    <img src="./WebApp/static/images/README/Accuracy_Speech.png" width="400" height="400" />
+    <img src="./Images/Accuracy_Speech.png" width="400" height="400" />
 </p>
 
 ---
@@ -126,7 +126,7 @@ The ensemble model has not been implemented on this version.
 ## How to use it ?
 
 There are several resources available :
-- the working notebooks can be found in the Text/Video/Audio sections
+- the working notebooks can be found in the /Video/Audio sections
 - the final notebooks can be accessed through the Google Colab link in the table at the beginning
 
 To use the web app :
@@ -148,8 +148,7 @@ The web app has been dockerized
 
 ---
 
-#### [Welcome to AI-Interview Discussions !](https://github.com/aryasoni98/AI-Interview/discussions)
-
+#### [Github Discussions](https://github.com/aryasoni98/AI-Interview/discussions) || [Join Discord](https://discord.gg/c9M6MZg6yJ)
 ---
 <div>
 

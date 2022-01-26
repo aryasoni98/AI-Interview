@@ -1,6 +1,6 @@
 # Speech Emotion Recognition
 
-![image](../UI/audio.png)
+![image](../Images//audio.png)
 
 The aim of this section is to explore speech emotion recognition techniques from an audio recording.
 
