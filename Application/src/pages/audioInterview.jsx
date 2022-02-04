@@ -21,18 +21,25 @@ const AudioInterview = () => {
               <div style={{ marginTop:"190px",marginLeft:"20px",  }}>
 
                 <Audioo />
+                
               </div>
               </div>
             </div>
 
-            {/* <div className="d-flex m-4 justify-evenly	">
-              <button className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue fs-2 font-medium rounded-2">
+            <div className="d-flex m-4 justify-evenly	">
+              {/* <button className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue fs-2 font-medium rounded-2">
                 Start
-              </button>
-              <button className="border-2 m-4 px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
+              </button> */}
+              
+              <form action="/audio_interview" method="post">
+                    <input type="submit" name="audio" value="Start Audio" className="border-2 m-4 text-white bg-blue-900 px-8 py-2 border-blue fs-2 font-medium rounded-2" />
+              </form>
+
+              {/* <button className="border-2 m-4 px-5 text-blue py-2 border-black fs-2 font-medium rounded-2">
                 Stop
               </button> */}
-            {/* </div> */}
+            </div>
+            
           </div>
 
         <div className="d-flex flex-column ml-12 text-xl font-regular"style={{marginTop:"25px" ,gap:10, height:"100%"}}>
@@ -49,7 +56,7 @@ const AudioInterview = () => {
             </div>
             <div className="d-flex  justify-evenly pt-5	"style={{marginBottom:"40px"}}>
               <button className="border-2  px-3 text-blue border-black fs-4 font-medium rounded-2" >
-                Result
+                Submit
               </button>
             </div>
           </div>

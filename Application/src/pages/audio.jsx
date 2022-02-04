@@ -27,6 +27,7 @@ const Audio= ()=>{
                         </div>
                         <br />
                         <br />
+
                         {/* <div className="d-flex gap-10">
                             <Link to="/interview/a">
                             <button className="bg-black font-light px-5 py-2 rounded-2">Interview</button>
@@ -34,12 +35,16 @@ const Audio= ()=>{
                             <button classNa
                             me="border-2 border-black font-dark px-6 py-2 rounded-2">Result</button>
                         </div> */}
+
                         <div className=" gap-2" >
 
                             <Link to="/interview/a" >
-                                    <button type="button" class="btn btn-dark px-3 mr-4 py-2" style={{margin:"20px"}}>Interview</button>
-                                    <button type="button" class="btn btn-outline-dark py-2">Result</button>
+                                <button type="button" class="btn btn-dark px-3 mr-4 py-2" style={{margin:"20px"}}>Interview</button>
                             </Link>
+                            <Link to="/audio_dash" >
+                                <button type="button" class="btn btn-outline-dark py-2">Result</button>
+                            </Link>
+
                         </div>
 
                     </div>

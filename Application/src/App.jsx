@@ -26,10 +26,6 @@ const App=()=> {
             <Route path="/interview/a" exact component={AudioInterview} />
         </div>
         </Router>
-        
-
-
-
 
       {/* <InterviewType>
       <Landing/>
