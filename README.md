@@ -88,7 +88,7 @@ To use the **Application** ( Client Side ):
 - Run `npm install -g && npm start`
 - Launch 
 
-The web app has been **Dockerized**
+The web app has been **Dockerized** ( **Application && WebApp Folder** )
 - First install [Docker](https://www.docker.com/products/docker-desktop)
 - Second build the image, Run `docker-compose build`
 - Then start/run the container, run `docker-compose up`

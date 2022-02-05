@@ -1,21 +1,17 @@
 import React  from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 
-
 //HOC
-//
+
 import Landing from "../src/pages/landing.pages";
 import Audio from "./pages/audio";
 import Video from "./pages/video";
 import VideoInterview from "./pages/videoInterview";
 import AudioInterview from "./pages/audioInterview";
 
-
 const App=()=> {
   return (
     <>
-
-
         <Router>
         <div>
             

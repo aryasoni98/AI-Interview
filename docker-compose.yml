@@ -2,6 +2,8 @@ version: '3.8'
 
 services:
   web:
+    container_name: ai-interview
+    image: ai-interview
     build: ./WebApp
     command: python app.py
     volumes:
