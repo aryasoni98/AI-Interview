@@ -18,8 +18,8 @@ const App=()=> {
             <Route path="/" exact component={Landing} />
             <Route path="/audio" exact component={Audio} />
             <Route path="/video" exact component={Video} />
-            <Route path="/interview/v" exact component={VideoInterview} />
-            <Route path="/interview/a" exact component={AudioInterview} />
+            <Route path="/interview/v" exact component={VideoInterview} /> {/* Should fix this link */}
+            <Route path="/interview/a" exact component={AudioInterview} /> {/* Should fix this link */}
         </div>
         </Router>
 
