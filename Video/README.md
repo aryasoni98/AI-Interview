@@ -2,7 +2,7 @@
 
 The aim of this section is to explore facial emotion recognition techniques from a live webcam video stream.
 
-![image](../WebApp/static/images/Screenshot/video.png)
+![image](../Images//video.png)
 
 ## Data
 

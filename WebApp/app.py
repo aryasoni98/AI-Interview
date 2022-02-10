@@ -20,30 +20,24 @@ from library.video_emotion_recognition import *
 
 # Flask config
 app = Flask(__name__)
-app.secret_key = b'(\xee\x00\xd4\xce"\xcf\xe8@\r\xde\xfc\xbdJ\x08W'
+app.secret_key = b'(\xee\x00\xd4\xce"\xcf\xe8@\r\xde\xfc\xbdJ\x08W'. #Read the secret key in programmatic way. It must be confidential in public forum.
 app.config['UPLOAD_FOLDER'] = '/Upload'
 
-################################################################################
 ################################## INDEX #######################################
-################################################################################
 
 # Home page
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('index.html')
+    return render_template('landing.html')
 
-################################################################################
 ################################## RULES #######################################
-################################################################################
 
 # Rules of the game
 @app.route('/rules')
 def rules():
     return render_template('rules.html')
 
-################################################################################
 ############################### VIDEO INTERVIEW ################################
-################################################################################
 
 # Read the overall dataframe before the user starts to add his own data
 df = pd.read_csv('static/js/db/histo.txt', sep=",")
@@ -56,7 +50,7 @@ def video() :
     return render_template('video.html')
 
 # Display the video flow (face, landmarks, emotion)
-@app.route('/video_1', methods=['POST'])
+@app.route('/video_interview', methods=['POST'])
 def video_1() :
     try :
         # Response is used to display a flow of information
@@ -174,12 +168,10 @@ def video_dash():
     return render_template('video_dash.html', emo=emotion_label(emotion), emo_other = emotion_label(emotion_other), prob = emo_prop(df_2), prob_other = emo_prop(df))
 
 
-################################################################################
 ############################### AUDIO INTERVIEW ################################
-################################################################################
 
 # Audio Index
-@app.route('/audio_index', methods=['POST'])
+@app.route('/audio', methods=['POST'])
 def audio_index():
 
     # Flash message
@@ -188,7 +180,7 @@ def audio_index():
     return render_template('audio.html', display_button=False)
 
 # Audio Recording
-@app.route('/audio_recording', methods=("POST", "GET"))
+@app.route('/audio_interview', methods=("POST", "GET"))
 def audio_recording():
 
     # Instanciate new SpeechEmotionRecognition object
@@ -255,5 +247,6 @@ def audio_dash():
 
     return render_template('audio_dash.html', emo=major_emotion, emo_other=major_emotion_other, prob=emotion_dist, prob_other=emotion_dist_other)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    # debug option should be set to false in production
+    app.run(debug=False)

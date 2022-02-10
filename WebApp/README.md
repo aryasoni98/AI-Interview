@@ -1,17 +1,21 @@
 # AI Interview WebApp
 
-We analye facial, vocal and textual emotions, using mostly deep learning based approaches. We deployed a web app using Flask :
+We analye facial, vocal and textual emotions, using mostly deep learning based approaches. We deployed a web app using Flask
 
-![image](./static/images/Screenshot/home.png)
+![image](../Images/Landing.png)
 
 ## How to use it ?
 
 To use the web app :
 - Clone the project locally
 - Go in the WebApp folder
-- Run `$ pip install -r requirements.txt``
+- Run `pip install -r requirements.txt`
 - Launch the app by running `python app.py`
 - Go to http://127.0.0.1:5000/ (or follow the link given in your terminal
+
+The web app has been dockerized
+- First build the image, run `docker-compose build`
+- Then start/run the container, run `docker-compose up`
 
 ## How does it work ?
 

@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.font-link {
-    font-family: 'M PLUS Rounded 1c', cursive;
-}
