@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   app:
-    container_name: ai-interview
-    image: ai-interview
+    container_name: ai-interview-c
+    image: ai-interview-c
     build:
       context: .
       target: development
