@@ -20,7 +20,7 @@ from library.video_emotion_recognition import *
 
 # Flask config
 app = Flask(__name__)
-app.secret_key = b'(\xee\x00\xd4\xce"\xcf\xe8@\r\xde\xfc\xbdJ\x08W'. #Read the secret key in programmatic way. It must be confidential in public forum.
+app.secret_key = b'(\xee\x00\xd4\xce"\xcf\xe8@\r\xde\xfc\xbdJ\x08W' #Read the secret key in programmatic way. It must be confidential in public forum.
 app.config['UPLOAD_FOLDER'] = '/Upload'
 
 ################################## INDEX #######################################

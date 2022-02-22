@@ -10,5 +10,5 @@ RUN apt-get update \
         && apt-get install libportaudio2 libportaudiocpp0 portaudio19-dev libasound-dev libsndfile1-dev libgl1-mesa-dev -y \
         && apt-get install build-essential cmake pkg-config -y \
         && pip3 install pyaudio
-RUN pip install dlib
-RUN pip install -r requirements.txt
+RUN pip3 install dlib
+RUN pip3 install -r requirements.txt
