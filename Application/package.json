@@ -47,7 +47,7 @@
     "react-mic": "^12.4.6",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^5.2.1",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^3.0.1",
     "react-video-recorder": "^3.17.1",
     "render": "^0.1.4",
     "resolve": "^1.20.0",
