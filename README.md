@@ -138,37 +138,37 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  				<img src="https://avatars.githubusercontent.com/u/18515597?s=400&u=4ecfe979f461f79e86a9c7a26183c1327da5d2bc&v=4" width="100px" alt="" />
  				<br /> <sub><b>Arya Soni</b></sub>
  			</a>
- 			<br /> <a href="https://github.com/aryasoni98">
- 		   Admin
- 	    </a>
+ 				<br /> <a href="https://github.com/aryasoni98">
+ 		   			Admin
+ 	   		 </a>
  		</td>
-		 <td align="center">
+		<td align="center">
  			<a href="https://github.com/shubhigupta991">
  				<img src="https://avatars.githubusercontent.com/u/58917829?s=400&u=a792b01ef12ba7f84049ee3382f256738dc0a0de&v=4" width="100px" alt="" />
  				<br /> <sub><b>Shubhangi Gupta</b></sub>
  			</a>
- 			<br /> <a href="https://github.com/shubhigupta991">
- 		   Member
- 	    </a>
+				<br /><a href="https://github.com/shubhigupta991">
+					Member
+ 	    	</a>
  		</td>
-                </td>
+        </td>
 		 <td align="center">
  			<a href="#">
-                                 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHsXkJ-RYW8TQ/profile-displayphoto-shrink_400_400/0/1623878833958?e=1651104000&v=beta&t=eAnyP0Ngbizjv0HkcK1thVsrjUEfHEno1y3Zr5IpK44" width="100px" alt="" />
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHsXkJ-RYW8TQ/profile-displayphoto-shrink_400_400/0/1623878833958?e=1651104000&v=beta&t=eAnyP0Ngbizjv0HkcK1thVsrjUEfHEno1y3Zr5IpK44" width="100px" alt="" />
  				<br /> <sub><b>Animesh Kumar Tiwari </b></sub>
  			</a>
- 		   Member
- 	    </a>
+				<br /><a href="#">
+					Member
+ 	   		 </a>
  		</td>
-                </td>
-		 <td align="center">
+		<td align="center">
  			<a href="#">
-                                 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHh-exLjqAdWA/profile-displayphoto-shrink_400_400/0/1623749834827?e=1651104000&v=beta&t=xZaoBO26CZkWAiAKO3vu5mbWnsyPA1pXKPJEZD_iUT8" width="100px" alt="" />
+                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHh-exLjqAdWA/profile-displayphoto-shrink_400_400/0/1623749834827?e=1651104000&v=beta&t=xZaoBO26CZkWAiAKO3vu5mbWnsyPA1pXKPJEZD_iUT8" width="100px" alt="" />
  				<br /> <sub><b>Hrithik Jaiswal</b></sub>
  			</a>
- 			<br /> <a href="#">
- 		   Member
- 	    </a>
+				<br /> <a href="#">
+					Member
+ 	    	</a>
  		</td>
  	</tr>
 </table>
