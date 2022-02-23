@@ -151,6 +151,25 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  		   Member
  	    </a>
  		</td>
+                </td>
+		 <td align="center">
+ 			<a href="#">
+                                 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHsXkJ-RYW8TQ/profile-displayphoto-shrink_400_400/0/1623878833958?e=1651104000&v=beta&t=eAnyP0Ngbizjv0HkcK1thVsrjUEfHEno1y3Zr5IpK44" width="100px" alt="" />
+ 				<br /> <sub><b>Animesh Kumar Tiwari </b></sub>
+ 			</a>
+ 		   Member
+ 	    </a>
+ 		</td>
+                </td>
+		 <td align="center">
+ 			<a href="#">
+                                 				<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHh-exLjqAdWA/profile-displayphoto-shrink_400_400/0/1623749834827?e=1651104000&v=beta&t=xZaoBO26CZkWAiAKO3vu5mbWnsyPA1pXKPJEZD_iUT8" width="100px" alt="" />
+ 				<br /> <sub><b>Hrithik Jaiswal</b></sub>
+ 			</a>
+ 			<br /> <a href="#">
+ 		   Member
+ 	    </a>
+ 		</td>
  	</tr>
 </table>
 
