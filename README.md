@@ -86,14 +86,15 @@ Install **PyAudio** [ Window , Mac ](https://stackoverflow.com/questions/5228384
 To use the **Application** ( Client Side ):
 - Go in the Application folder.
 - Run `npm install -g && npm start`
-- Launch 
+- Launch
 
 The web app has been **Dockerized** ( **Application && WebApp Folder** )
 - First install [Docker](https://www.docker.com/products/docker-desktop)
 - Second build the image, Run `docker-compose build`
 - Then start/run the container, run `docker-compose up`
----
-# Model improve the accuracy : [AI Interview ML](https://github.com/aryasoni98/AI-Interview-ML)
+
+#   
+
 ## How to Contribute to AI Interview System?
 
 - Take a look at the Existing [Issues](https://github.com/aryasoni98/AI-Interview/issues) or create your own Issues!
@@ -109,7 +110,7 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  			<a href="https://github.com/aryasoni98">
  				<img src="https://img.icons8.com/nolan/64/github.png" width="64px" alt="" />
  			</a>
- 				<br /> 
+ 				<br />
 			 <a href="https://github.com/aryasoni98/AI-Interview/discussions">
  		   		Github Discussions
  	    	</a>
@@ -118,7 +119,7 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  			<a href="https://github.com/aryasoni98">
  				<img src="https://img.icons8.com/nolan/64/discord-logo.png" width="64px" alt="" />
  			</a>
- 				<br /> 
+ 				<br />
 			<a href="https://discord.gg/c9M6MZg6yJ">
  		   		Join Discord
  	    	</a>
