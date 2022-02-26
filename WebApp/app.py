@@ -249,4 +249,4 @@ def audio_dash():
 
 if __name__ == "__main__":
     # debug option should be set to false in production
-    app.run(debug=False)
+    app.run(debug=True, host='0.0.0.0')
