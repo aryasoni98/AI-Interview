@@ -66,6 +66,10 @@ Our aim is to develop a model able to provide a live sentiment analysis with a v
 
 ---
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview)
+
+---
+
 ## How to use it ?
 
 To use the **WebApp** ( Server Side ):
@@ -73,20 +77,22 @@ To use the **WebApp** ( Server Side ):
 - Go in the WebApp folder
 - Run `pip install -r requirements.txt`
 - Launch `python app.py`
+- Alternatively, skip all the steps by using  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/WebApp)
 
 Install **PyAudio** [ Window , Mac ](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)
 
-- Window :
+- ### Window :
 - - CMD `pip install pipwin`
 - - CMd `pipwin install pyaudio`
 
-- Mac :
+- ### Mac :
 - - `brew install portaudio`
 
 To use the **Application** ( Client Side ):
 - Go in the Application folder.
 - Run `npm install -g && npm start`
 - Launch
+- Alternatively, skip all the steps by using  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/Application)
 
 The web app has been **Dockerized** ( **Application && WebApp Folder** )
 - First install [Docker](https://www.docker.com/products/docker-desktop)
