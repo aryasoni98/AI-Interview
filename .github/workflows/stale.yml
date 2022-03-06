@@ -1,7 +1,6 @@
 name: Mark Stale issues
 name: Mark stale pull requests
 
-
 on:
   schedule:
   - cron: "30 1 * * *"
