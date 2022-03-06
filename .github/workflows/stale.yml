@@ -12,12 +12,12 @@ jobs:
     steps:
     - uses: actions/stale@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.TOKEN }}
         stale-issue-message: 'The issue labelled as stale because it has been open for more than 7 days with inactivity.'
         days-before-stale: 7
         days-before-close: -1
-        stale-issue-label: 'Stale'
-        exempt-issue-labels: 'Announcement,Pinned'
+        stale-issue-label: 'AI Interview'
+        exempt-issue-labels: 'AI Interview'
         remove-stale-when-updated: true
 
 
@@ -27,7 +27,7 @@ jobs:
     - uses: actions/stale@v3.0.11
       with:
         # Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`.
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.TOKEN }}
         stale-pr-message: 'Due to inactivity this pull request has been marked as stale.'
         # The message to post on the issue when closing it. If none provided, will not comment when closing an issue.
         close-pr-message: 'Closing this pr due to no activity.'
@@ -36,7 +36,7 @@ jobs:
         # The number of days to wait to close an issue or pull request after it being marked stale. Set to -1 to never close stale issues.
         days-before-close: 7
         # The label to apply when a pull request is stale.
-        stale-pr-label: 'Stale'
+        stale-pr-label: 'AI Interview'
         # The label to apply when a pull request is closed.
-        close-pr-label: 'Stale-n-closed'
+        close-pr-label: 'AI Interview Closed'
     
