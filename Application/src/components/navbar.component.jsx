@@ -38,7 +38,7 @@ const Navbar  = ()=>{
                             </div>
                             <div class="d-flex align-items-center" >
 
-                                <a href="https://www.producthunt.com/posts/ai-interview-system?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai-interview-system" target="_blank" >
+                                <a href="https://www.producthunt.com/posts/ai-interview-system?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai-interview-system" target="_blank" rel="noopener noreferrer" >
                                     <div class="d-flex px-5 align-items-center gap-3 border-2 border-light rounded-2">
                                         <FaProductHunt class="fs-1" />
 
@@ -49,7 +49,7 @@ const Navbar  = ()=>{
                                     </div>
                                 </a>
 
-                                <a href="https://discord.gg/dfkX92SMGW" target="_blank"  >
+                                <a href="https://discord.gg/dfkX92SMGW" target="_blank" rel="noopener noreferrer" >
                                     <div class="d-flex px-5 align-items-center gap-3 border-2 border-light rounded-2">
                                         <FaDiscord class="fs-1" />
 
