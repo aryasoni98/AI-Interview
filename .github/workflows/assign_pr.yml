@@ -3,7 +3,6 @@ name: 'Auto Assign PR'
 on:
   pull_request:
     
-
 jobs:
   add-reviews:
     runs-on: ubuntu-latest
