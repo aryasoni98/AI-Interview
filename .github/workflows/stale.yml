@@ -1,4 +1,6 @@
 name: Mark Stale issues
+name: Mark stale pull requests
+
 
 on:
   schedule:
@@ -14,9 +16,12 @@ jobs:
         stale-issue-message: 'The issue labelled as stale because it has been open for more than 7 days with inactivity.'
         days-before-stale: 7
         days-before-close: -1
-        stale-issue-label: 'AI Interview'
-        exempt-issue-labels: 'AI Interview'
+        stale-issue-label: 'Stale'
+        exempt-issue-labels: 'Announcement,Pinned,AI-Interview'
         remove-stale-when-updated: true
+
+
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/stale@v3.0.11
@@ -31,7 +36,6 @@ jobs:
         # The number of days to wait to close an issue or pull request after it being marked stale. Set to -1 to never close stale issues.
         days-before-close: 7
         # The label to apply when a pull request is stale.
-        stale-pr-label: 'AI Interview'
+        stale-pr-label: 'Stale'
         # The label to apply when a pull request is closed.
-        close-pr-label: 'AI Interview Closed'
-    
+        close-pr-label: 'Stale-n-closed'
