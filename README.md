@@ -83,7 +83,7 @@ Install **PyAudio** [ Window , Mac ](https://stackoverflow.com/questions/5228384
 
 - ### Window :
 - - CMD `pip install pipwin`
-- - CMd `pipwin install pyaudio`
+- - CMD `pipwin install pyaudio`
 
 - ### Mac :
 - - `brew install portaudio`
