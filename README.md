@@ -123,15 +123,6 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  		   		Github Discussions
  	    	</a>
  		</td>
-		<td align="center">
- 			<a href="https://github.com/aryasoni98">
- 				<img src="https://img.icons8.com/nolan/64/discord-logo.png" width="64px" alt="" />
- 			</a>
- 				<br />
-			<a href="https://discord.gg/c9M6MZg6yJ">
- 		   		Join Discord
- 	    	</a>
- 		</td>
  	</tr>
  </table>
 
