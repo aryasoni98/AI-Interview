@@ -177,18 +177,3 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
 </div>
 
 ---
-
-
-<table>
- 	<tr>
- 		<td align="center">
-			<a href="https://www.producthunt.com/posts/ai-interview-system?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai-interview-system" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=322838&theme=light" alt="AI Interview System - Test & Developed Your Interview Skills | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
-			</a>
- 		</td>
-		 <td align="center">
- 			<a href="https://devlibrary.withgoogle.com/products/ml/repos/aryasoni98-AI-Interview">
- 				<img src="https://devlibrary.withgoogle.com/img/GoogleDevelopers-lockup.a258cc9a.svg" width="250px" alt="" />
- 			</a>
- 		</td>
- 	</tr>
-</table>
