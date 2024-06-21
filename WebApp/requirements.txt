@@ -78,7 +78,7 @@ threadpoolctl==3.0.0
 toolz==0.11.2
 typing-extensions==4.0.1
 urllib3==1.26.17
-Werkzeug==2.2.3
+Werkzeug==3.0.3
 wordcloud==1.8.1
 wrapt==1.13.3
 zipp==3.6.0
